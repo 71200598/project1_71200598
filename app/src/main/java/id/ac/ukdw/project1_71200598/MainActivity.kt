@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        val summaryButton: Button = findViewById(R.id.summaryButton)
+        val summaryButton: Button = findViewById(R.id.SummaryButton)
         summaryButton.setOnClickListener {
             val intent = Intent(this, SummaryActivity::class.java)
             startActivity(intent)
